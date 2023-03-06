@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    .container {
+        /* margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px; */
+        margin: 0px 285px;
+        background-color: teal;
+        width: 55%;
+        height: 560px;
+        padding: 30px;
+        border-radius: 10px;
+
+    }
+
+    .form {
+        margin: 0px auto;
+        border: 2px solid black;
+        width: 70%;
+        text-align: center;
+        height: 580px;
+        background-color: rgba(245, 245, 245, 0.945);
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .input {
+        margin: 5px;
+        border-radius: 5px;
+        height: 20px;
+
+    }
+
+    label {
+        padding-right: 50px;
+    }
+
+    #middle {
+        margin-right: 21px;
+    }
+
+    #add {
+        margin-left: 205px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+    #addr {
+        position: absolute;
+        top: 192px;
+        left: 99px;
+    }
+
+    #dob {
+        position: absolute;
+        top: 286px;
+        left: 87px;
+    }
+
+    #dob1 {
+        width: 251px;
+        height: 30px;
+        margin-left: 202px;
+        margin-bottom: 10px;
+    }
+
+    #select {
+        width: 184px;
+        height: 30px;
+        border-radius: 5px;
+        margin: 5px;
+        margin-top: 11px;
+    }
+    #mobile{
+        margin-left: 9px;
+    }
+    #email{
+        margin-left: 41px;
+    }
+    #pass{
+        margin-left: 18px;
+    }
+
+    #check{
+        margin-left: 20px;
+    }
+
+    button{
+        height: 35px;
+        margin-top: 15px;
+        width: 160px;
+        background-color: black;
+        border: none;
+        border-radius: 10px;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="form">
+                <h1>Registration For Job</h1>
+
+                <label for="">First Name </label>
+                <input type="text" placeholder="First Name" name="" id="" class="input"> <br>
+
+                <label for="">Middle Name </label>
+                <input type="text" placeholder="Middle Name" name="" id="middle" class="input"> <br>
+
+                <label for="">Last Name </label>
+                <input type="text" placeholder="Last Name" name="" id="" class="input"> <br>
+
+                <label for="" id="addr">Address </label>
+                <textarea name="" id="add" placeholder="Address" cols="30" rows="5"></textarea> <br>
+
+                <label for="" id="dob"> Date Of Birth </label>
+                <input type="date" name="" id="dob1" class="input"> <br>
+
+                <label for="" id="gen">Gender</label> &nbsp; &nbsp; &nbsp;
+                <input type="radio" name="gen">Male
+                <input type="radio" name="gen">Female
+                <input type="radio" name="gen">Other <br>
+
+                <label for="" id="exp">Experiance </label>
+                <select name="" id="select">
+                    <option value="">--Select--</option>
+                    <option value="">value 1</option>
+                    <option value="">value 2</option>
+                    <option value="">value 3</option>
+                </select> <br>
+
+                <label for="">Mobile No </label>
+                <input type="text" id="mobile" placeholder="Mobile No" class="input"> <br>
+
+                <label for=""> Email </label>
+                <input type="email" id="email" class="input" placeholder="Email"> <br>
+
+                <label for=""> Password </label>
+                <input type="text" name="" id="pass" class="input" placeholder="Password"> <br>
+
+                <label for=""> </label>
+                <input type="checkbox" name="" id="check"> Show Password <br>
+
+                <button>Register</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
