@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallary</title>
+</head>
+<style>
+    img{
+        height: 170px;
+        width: 292px;
+        border-radius: 10px;
+        border: 2px solid lightseagreen;
+        box-shadow: 5px 5px 5px black;    
+    }
+    .img5{
+        transform: rotate(-35deg);
+    }
+    .img3{
+        transform: rotate(17deg);
+    }
+    
+    .main .container{
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        grid-template-columns: repeat(4,0fr); 
+        gap: 30px;
+        padding-top: 30px;
+    }
+    
+    
+
+</style>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="img">
+                <img src="/Imege/bike1.jpeg" alt="">
+            </div>
+            <div class="img2">
+                <img src="/Imege/bike2.jpeg" alt="">
+            </div>
+            <div class="img3">
+                <img src="/Imege/bike3.jpeg" alt="">
+            </div>
+            <div class="img4">
+                <img src="/Imege/bike10.jpeg" alt="">
+            </div>
+            <div class="img5">
+                <img src="/Imege/bike5.jpeg" alt="">
+            </div>
+            <div class="img6">
+                <img src="/Imege/bike6.jpeg" alt="">
+            </div>
+            <div class="img7">
+                <img src="/Imege/bike9.jpeg" class="img7" alt="">
+            </div>
+            <div class="img8">
+                <img src="/Imege/bike8.jpeg" class="img8" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
