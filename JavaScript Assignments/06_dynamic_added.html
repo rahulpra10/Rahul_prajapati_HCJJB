@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic added element</title>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+            <label for="">Enter Element Which You want to print :</label>
+            <input type="text" id="input"> <br>
+            <button onclick="element_add()"> ADD </button>
+
+            <div id="add">
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        
+
+        function element_add(){
+            let input = document.getElementById("input").value;
+            // let input = "<h1>Rahul Prajapati</h1>";
+            let div = document.getElementById("add");
+
+            div.insertAdjacentHTML("beforeend", input);
+        }
+        
+
+        
+    </script>
+</body>
+</html>
