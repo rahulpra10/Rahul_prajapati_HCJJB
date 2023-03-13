@@ -1,0 +1,32 @@
+1. What is JQuery ?
+
+    => JQuery is a lightweight, "write less, do more", Javascript library. Thw purpose of jQuery is to make it much easier to use jaavscript on your website. jQUery takes a lot of common tasks that 
+    require many lines of javascript code to accomplish , and wraps them into methods that you can call
+    with a single line of code.
+
+
+2. How to Apply CSS Using JQuery, 
+   How to Add Class and Remove Class in Jquery, JQuery Animation ?
+
+   => jQuery can equally interpret the CSS and DOM formatting of
+      multiple-word properties. For example, jQuery understands
+      and returns the correct value for both .
+      css( "background-color" ) and .css( "backgroundColor" ) .
+
+   => addClass() - Adds one or more classes to the selected elements.
+      removeClass() - Removes one or more classes from the selected
+      elements. toggleClass() - Toggles between adding/removing classes
+      from the selected elements.
+
+   => The animate() method performs a custom animation of a set of CSS properties.
+      This method changes an element from one state to another with CSS styles. 
+      The CSS property value is changed gradually, to create an animated effect.
+      Only numeric values can be animated (like "margin:30px").
+
+3. How to create slider with animation ?
+
+   => Step 1: Create the Base Mark Up. What we need is a series of images in an unordered list: ...
+      Step 2: Add jQuery Code to hide unfocused images: ...
+      Step 3: Add “Next” and “Previous” Buttons. ...
+      Step 3: The Nifty .Animate()Method. ...
+      Step 4: Make 'er Nice and Purrty.
